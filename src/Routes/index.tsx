@@ -1,11 +1,8 @@
-import { View, Text } from 'react-native'
-import React from 'react'
-import StackNavigator from './StackNavigator'
+import React from 'react';
+import StackNavigator from './StackNavigator';
 
-const Routes = () => {
-  return (
-    <StackNavigator/>
-  )
-}
+const Routes: React.FC = () => {
+  return <StackNavigator />;
+};
 
-export default Routes
+export default Routes;
