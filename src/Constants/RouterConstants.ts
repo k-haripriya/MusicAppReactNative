@@ -1,6 +1,8 @@
-export const RouterConstants = {
+import LandingScreen from "../Screens/LandingScreen/LandingScreen";
+import { RouterConstantsTypes } from "../Types/RoutesTypes";
+
+export const RouterConstants:RouterConstantsTypes = {
     SplashScreen: 'SplashScreen',
-    HomeScreen: 'HomeScreen',
-    DetailsScreen: 'DetailsScreen',
-  } as const;
+    LandingScreen: 'LandingScren',
+  }
   
