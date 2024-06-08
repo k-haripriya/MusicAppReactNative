@@ -2,12 +2,15 @@ import {View, Text, ImageBackground, Image} from 'react-native';
 import React, {useState} from 'react';
 import GestureRecognizer from 'react-native-swipe-gestures';
 import {Strings} from '../../res/Strings';
-import {images} from '../../res/images/images';
+import {images} from '../../res/images';
 import {onboardingConstants} from '../../Types/OtherTypes';
 import {styles} from './styles';
 import {TouchableOpacity} from 'react-native-gesture-handler';
+import { useNavigation } from '@react-navigation/native';
+import { RouterConstants } from '../../Constants/RouterConstants';
 
 const OnBoardingScreen = () => {
+  const navigation = useNavigation();
   const [getActiveScreen, setActiveScreen] = useState(1);
   const data: {[key: string]: onboardingConstants} = {
     screen1: {
@@ -41,7 +44,9 @@ const OnBoardingScreen = () => {
         break;
     }
   };
-  const handleSkip = () => {};
+  const handleSkip = () => {
+    navigation.navigate(RouterConstants.LandingScreen);
+  };
   return (
     <GestureRecognizer
       onSwipeLeft={() => handleSwipe('left')}

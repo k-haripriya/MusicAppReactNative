@@ -12,7 +12,7 @@ const Stack = createStackNavigator<NavigationStackParams>();
 const StackNavigator = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName={RouterConstants.OnBoardingScreen}>
+      <Stack.Navigator initialRouteName={RouterConstants.SplashScreen}>
         <Stack.Screen name={RouterConstants.SplashScreen} component={SplashScreen} options={{headerShown:false}}/>
         <Stack.Screen name={RouterConstants.OnBoardingScreen} component={OnBoardingScreen} options={{headerShown:false}}/>
         <Stack.Screen name={RouterConstants.LandingScreen} component={LandingScreen} options={{headerShown:false}}/>

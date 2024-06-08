@@ -1961,6 +1961,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-navigation@npm:^3.4.0":
+  version: 3.4.0
+  resolution: "@types/react-navigation@npm:3.4.0"
+  dependencies:
+    react-navigation: "*"
+  checksum: 527549ae30c3b99aeea7bb6bf6d0894cd99c1173bd24753d5621fb110dd80f669b8a1c5f269f51ca174b8dabb914797e524f9efd1dcde52da56cf370d3d41f21
+  languageName: node
+  linkType: hard
+
 "@types/react-test-renderer@npm:^17.0.1":
   version: 17.0.9
   resolution: "@types/react-test-renderer@npm:17.0.9"
@@ -2127,6 +2136,7 @@ __metadata:
     "@react-navigation/stack": ^6.3.29
     "@types/jest": ^26.0.23
     "@types/react-native": ^0.65.0
+    "@types/react-navigation": ^3.4.0
     "@types/react-test-renderer": ^17.0.1
     babel-jest: ^26.6.3
     eslint: ^7.14.0
@@ -8202,6 +8212,13 @@ __metadata:
   bin:
     react-native: cli.js
   checksum: f563535a66e42c8c86967f3a5885666b8cf2e530ce8eef5237f03fa1c3718ffb96cd0aa7cde3c69e9ae93c49689cf20610bde05e11e1cfd35d199edc6200bbb8
+  languageName: node
+  linkType: hard
+
+"react-navigation@npm:*":
+  version: 5.0.0
+  resolution: "react-navigation@npm:5.0.0"
+  checksum: 90a44a82e6b6cf39cde4a14b7ba3e6bef241af247b155c61a3cc00db694260e47a29bc617acad03cb98a7a70f215ee58a92902f988a4e52e444ff18fef545ea7
   languageName: node
   linkType: hard
 

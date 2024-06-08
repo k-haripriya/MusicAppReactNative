@@ -11,7 +11,7 @@ import {
   Touchable,
   View,
 } from 'react-native';
-import {images} from '../res/images/images';
+import {images} from '../res/images';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 import {Colors} from '../res/AppColors';
 import * as Animatable from 'react-native-animatable';
