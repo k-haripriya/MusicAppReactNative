@@ -6,6 +6,8 @@ export const RouterConstants:RouterConstantsTypes = {
     LandingScreen: 'LandingScren',
     HomeScreen: 'HomeScreen',
     SearchScreen: 'SearchScreen',
-    LibraryScreen: 'LibraryScreen'
+    LibraryScreen: 'LibraryScreen',
+    ProfileScreen: 'ProfileScreen',
+    SettingsScreen: 'SettingsScreen',
   }
   

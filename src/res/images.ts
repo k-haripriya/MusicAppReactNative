@@ -6,6 +6,8 @@ export const images = {
     ob1:require('../../assets/images/ob1.png'),
     ob2:require('../../assets/images/ob2.png'),
     ob3:require('../../assets/images/ob3.png'),
-    close: require('../../assets/images/Close.png')
+    close: require('../../assets/images/Close.png'),
+    profile: require('../../assets/images/DefaultProfile.png'),
+    settings: require('../../assets/images/Settings.png')
 
 }
