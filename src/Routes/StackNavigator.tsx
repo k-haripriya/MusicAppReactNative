@@ -5,13 +5,15 @@ import { NavigationStackParams } from '../Types/RoutesTypes'
 import { NavigationContainer } from '@react-navigation/native';
 import SplashScreen from '../Screens/SplashScreen/SplashScreen';
 import { RouterConstants } from '../Constants/RouterConstants';
+import LandingScreen from '../Screens/LandingScreen/LandingScreen';
 
 const Stack = createStackNavigator<NavigationStackParams>();
 const StackNavigator = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName={RouterConstants.SplashScreen}>
+      <Stack.Navigator initialRouteName={RouterConstants.LandingScreen}>
         <Stack.Screen name={RouterConstants.SplashScreen} component={SplashScreen} options={{headerShown:false}}/>
+        <Stack.Screen name={RouterConstants.LandingScreen} component={LandingScreen} options={{headerShown:false}}/>
       </Stack.Navigator>
     </NavigationContainer>
   )
