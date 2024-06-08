@@ -1,0 +1,59 @@
+import { StyleSheet } from "react-native";
+import { Colors } from "../../res/AppColors";
+
+export const styles = StyleSheet.create({
+    image:{
+        height:'100%'
+    },
+    continer:{
+        flex:1,
+        flexDirection:'column',
+        alignItems:'center',
+        justifyContent:'space-between'
+    },
+    appName:{
+        fontFamily:'LilyScriptOne-Regular',
+        fontSize:40,
+        color:Colors.white,
+        textAlign:'center',
+        marginTop:30
+    },
+    des:{
+        color:Colors.white,
+        fontFamily:'Montserrat-ExtraBold',
+        fontSize:20,
+        textAlign:'center',
+        marginHorizontal:30
+    },
+    boxView:{
+        flexDirection:'row',
+        alignItems:'center',
+        justifyContent:'center',
+        marginVertical:30
+    },
+    box:{
+        height:8,
+        width:40,
+        backgroundColor:Colors.white,
+        marginHorizontal:20
+    },
+    activeBox:{
+        backgroundColor:Colors.appTheme
+    },
+    SkipButton:{
+        flexDirection:'row',
+        alignItems:'center',
+        alignSelf:'center',
+        marginBottom:10
+    },
+    closeButton:{
+        resizeMode:'contain',
+        width:40,
+        height:40
+    },
+    skipText:{
+        fontFamily:'Montserrat-SemiBold',
+        color:Colors.white,
+        fontSize:18
+    }
+})
